@@ -737,7 +737,7 @@ body{
     align-items: center;
     justify-content: center;
     transition: all .4s ease;
-    width:94%;
+    width:100%;
     border-radius: 10px;
     background: #48D1CC;
 }
@@ -1004,6 +1004,7 @@ padding-bottom: 40px;
   color: whitesmoke;
   background-color: #050505;
   transition: all .5s ease;
+  overflow: scroll;
 }
 .blog-text h3{
   font-size: 28px;
@@ -1016,7 +1017,7 @@ padding-bottom: 40px;
     font-size: 18px;
     opacity: .9;
     font-weight: 400;
-    height: 80%;
+    height: 70%;
     padding: 30px;
     letter-spacing: 1px;
   }
