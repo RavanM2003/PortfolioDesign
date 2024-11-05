@@ -8,11 +8,11 @@
 }
 ::-webkit-scrollbar{
     width: 4px;
-    color:#6fc1bc;
+    color:#48D1CC;
     transition: all .4s ease;
 }
 ::-webkit-scrollbar-thumb {
-    background: #6fc1bc; 
+    background: #48D1CC; 
     border-radius: 4px;
     width: 4px;
     transition: all .4s ease;
@@ -327,7 +327,7 @@ body{
     text-decoration: none;
     color: white;
     font-size: 30px;
-    opacity: .7;
+    opacity: .4;
     transition: all .4s ease;
 }
 .navigation-links a:hover{
@@ -342,9 +342,9 @@ body{
     justify-content: center;
     transform: translate(-50%,-50%);
     align-items: center;
-    font-size: 5em;
-    font-weight: 400;
-    font-family: monoton;
+    font-size: 6em;
+    font-weight: 900;
+    font-family: poppins;
     color:rgb(255, 255, 255,.1);
     z-index: 1;
     pointer-events: none;
@@ -385,7 +385,7 @@ body{
 #breaker{
     height: 100vh;
     width: 200%;
-    background-color: 	#6fc1bc;
+    background-color: 	#48D1CC;
     opacity: 1;
     animation: breakeranimate 2s linear;
     display: none;
@@ -405,7 +405,7 @@ body{
     100%{ transform : translateX(100%) }
 }
 .color{
-    color: #6fc1bc;
+    color: #48D1CC;
     transition: all .4s ease;
 }
 #about{
@@ -507,7 +507,7 @@ body{
     font-family: aileron;
     font-weight: 400;
     font-size: 35px;
-    color: #6fc1bc;
+    color: #48D1CC;
     transition: all .4s ease;
 }
 .cv {
@@ -518,7 +518,7 @@ body{
     border:none;
     padding: 15px 30px;
     color: whitesmoke;
-    background: #6fc1bc;
+    background: #48D1CC;
     outline: none;
     font-size:20px;
     font-family: aileron;
@@ -594,13 +594,13 @@ body{
     margin: 20px;
     border-radius: 30%;
     padding: 10px;;
-    background: #6fc1bc;
-    box-shadow:0px 0px 0px 0px #6fc1bc ;
+    background: #48D1CC;
+    box-shadow:0px 0px 0px 0px #48D1CC ;
     height:100px;
     transition: all .8s ease;
 }
 .service:hover .service-img img{
-    box-shadow:0px 0px 0px 400px #6fc1bc ;
+    box-shadow:0px 0px 0px 400px #48D1CC ;
 }
 .service-description{
     font-family: poppins;
@@ -686,7 +686,7 @@ body{
     transition: all .4s ease;
     width:95%;
     border-radius: 10px;
-    background: #6fc1bc;
+    background: #48D1CC;
 }
 .js-progress{
     position: absolute;
@@ -700,7 +700,7 @@ body{
     transition: all .4s ease;
     width:90%;
     border-radius: 10px;
-    background: #6fc1bc;
+    background: #48D1CC;
 }
 .adobe-progress{
     position: absolute;
@@ -713,7 +713,7 @@ body{
     transition: all .4s ease;
     width:83%;
     border-radius: 10px;
-    background: #6fc1bc;
+    background: #48D1CC;
 }
 .php-progress{
     position: absolute;
@@ -725,7 +725,7 @@ body{
     justify-content: center;
     width:85%;
     border-radius: 10px;
-    background: #6fc1bc;
+    background: #48D1CC;
     transition: all .4s ease;
 }
 .jquery-progress{
@@ -739,7 +739,7 @@ body{
     transition: all .4s ease;
     width:94%;
     border-radius: 10px;
-    background: #6fc1bc;
+    background: #48D1CC;
 }
 .seo-progress{
     position: absolute;
@@ -752,7 +752,7 @@ body{
     width:84%;
     border-radius: 10px;
     transition: all .4s ease;
-    background: #6fc1bc;
+    background: #48D1CC;
 }
 .portfolio-header{
     height: auto;
@@ -811,7 +811,7 @@ padding-bottom: 40px;
     font-family: poppins;
     font-weight: 200;
     padding: 20px;
-    color: #6fc1bc;
+    color: #48D1CC;
     transition: all .4s ease;
 }
 .portfolio-text p{
@@ -828,11 +828,11 @@ padding-bottom: 40px;
     font-weight: 200;
     padding: 10px 20px;
     background:transparent;
-    color:#6fc1bc;
+    color:#48D1CC;
     transition: all .4s ease;
     outline: none;
     margin: 20px;
-    border: 1.5px solid #6fc1bc;
+    border: 1.5px solid #48D1CC;
     cursor: pointer;
     overflow: hidden;
     position: relative;
@@ -847,7 +847,7 @@ padding-bottom: 40px;
     top: 0;
     left: 0;
     z-index: 3;
-    background: #6fc1bc;
+    background: #48D1CC;
     transition: all .7s ease;
 }
 .portfolio-text button:hover{
@@ -878,7 +878,7 @@ padding-bottom: 40px;
     content: "";
     height: 100%;
     width: 100%;
-    background: #6fc1bc;
+    background: #48D1CC;
     opacity: .1;
     top: 0;
     left: 0;
@@ -979,7 +979,7 @@ padding-bottom: 40px;
     position: absolute;
     left: 0;
     bottom: 0;
-    background: #6fc1bc;
+    background: #48D1CC;
     color: whitesmoke;
     font-size: 18px;
     text-align: center;
@@ -1162,7 +1162,7 @@ form button{
     font-family: poppins;
     font-size:20px;
     color: whitesmoke;
-    background:#6fc1bc;
+    background:#48D1CC;
     opacity: .8;
     margin: 20px;
     cursor: pointer;
@@ -1287,7 +1287,7 @@ form button:hover{
     width: 100%;
 }
 .color-red{
-    background: #6fc1bc;
+    background: #48D1CC;
 }
 .color-purple{
     background: #481380;
@@ -1394,7 +1394,7 @@ For devices with smaller width like mobile phone
     #breaker{
         height: 50vh;
         width: 200%;
-        background-color: #6fc1bc;
+        background-color: #48D1CC;
         opacity: 1;
         animation: breakeranimate 2s linear;
         display: none;
@@ -1562,7 +1562,7 @@ For devices with smaller width like mobile phone
                 display: none;
             }
             .service:hover .service-img img{
-                box-shadow:0px 0px 0px 0px #6fc1bc ;
+                box-shadow:0px 0px 0px 0px #48D1CC ;
             }
             .portfolio-image img{
                 height: 300px;
@@ -1849,7 +1849,7 @@ for tabs and large phones
     #breaker{
         height: 50vh;
         width: 200%;
-        background-color: #6fc1bc;
+        background-color: #48D1CC;
         opacity: 1;
         animation: breakeranimate 2s linear;
         display: none;
@@ -2033,7 +2033,7 @@ for tabs and large phones
                 display: none;
             }
             .service:hover .service-img img{
-                box-shadow:0px 0px 0px 0px #6fc1bc ;
+                box-shadow:0px 0px 0px 0px #48D1CC ;
             }
             .portfolio-image img{
                 height: 380px;
